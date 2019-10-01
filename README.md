@@ -1,7 +1,8 @@
 # FloatingButtonWendysDD
 
+ღილაკი პროცესის გადასატვირთად
 
-Config parameters:
+კონფიგურაციის პარამეტრები:
 <table>
   <tr>
     <td>DefaultFilePath</td>
