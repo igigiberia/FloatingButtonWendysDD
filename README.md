@@ -2,7 +2,6 @@
 
 ღილაკი პროცესის გადასატვირთად
 <hr/>
-<div align="center">
   <table>
     <tr>
       <td colspan="2" align="center">კონფიგურაციის პარამეტრები</td>
@@ -32,4 +31,3 @@
       <td>ღილაკის Y მდებარეობა (True - ზემოთ, False - ქვემოთ)</td>
     </tr>
   </table>
-</div>
