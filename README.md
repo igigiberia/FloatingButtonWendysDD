@@ -5,7 +5,7 @@
 
 <table>
   <tr>
-    <td colspan="2" style="text-center">კონფიგურაციის პარამეტრები</td>
+    <td colspan="2" align="center">კონფიგურაციის პარამეტრები</td>
   </tr>
   <tr>
     <td>DefaultFilePath</td>
