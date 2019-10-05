@@ -84,7 +84,6 @@
     <EmbeddedResource Include="ButtonForm.resx">
       <DependentUpon>ButtonForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="FloatingButtonWendysDD_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

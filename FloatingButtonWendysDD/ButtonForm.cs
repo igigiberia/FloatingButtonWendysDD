@@ -14,13 +14,17 @@ namespace FloatingButtonWendysDD
     {
         public ButtonForm()
         {
-            FormClosing += new System.Windows.Forms.FormClosingEventHandler(ButtonForm_FormClosing);
             InitializeComponent();
             DoWorkPollingTask();
         }
-        private void ButtonForm_FormClosing(object sender, FormClosingEventArgs e)
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            e.Cancel = true;
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                //MessageBox.Show("დახურვის ფუნქციაზე წვდომა შეზღუდულია", "შეზღუდვა", MessageBoxButtons.OK);
+                e.Cancel = true;
+            }
         }
         void DoWorkPollingTask()
         {
@@ -32,11 +36,6 @@ namespace FloatingButtonWendysDD
                     await Task.Delay(1000);
                 }
             });
-        }
-        private void Exit()
-        {
-            FormClosing -= new System.Windows.Forms.FormClosingEventHandler(ButtonForm_FormClosing);
-            Close();
         }
         private void ReloadServiceButton_Click(object sender, EventArgs e)
         {

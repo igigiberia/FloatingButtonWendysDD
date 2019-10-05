@@ -20,5 +20,8 @@
     <Setting Name="Top" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="ButtonText" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">სერვისის გადატვირთვა</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

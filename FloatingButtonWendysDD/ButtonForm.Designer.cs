@@ -41,7 +41,7 @@
             this.ReloadButton.Name = "ReloadButton";
             this.ReloadButton.Size = new System.Drawing.Size(322, 56);
             this.ReloadButton.TabIndex = 0;
-            this.ReloadButton.Text = "სერვისის გადატვირთვა";
+            this.ReloadButton.Text = global::FloatingButtonWendysDD.Properties.Settings.Default.ButtonText;
             this.ReloadButton.UseVisualStyleBackColor = true;
             this.ReloadButton.Click += new System.EventHandler(this.ReloadButton_Click);
             // 

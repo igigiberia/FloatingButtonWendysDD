@@ -76,5 +76,14 @@ namespace FloatingButtonWendysDD.Properties {
                 return ((bool)(this["Top"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("სერვისის გადატვირთვა")]
+        public string ButtonText {
+            get {
+                return ((string)(this["ButtonText"]));
+            }
+        }
     }
 }
